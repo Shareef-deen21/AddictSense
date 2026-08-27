@@ -19,7 +19,7 @@ AddictSense is a full-stack machine learning web application that classifies a u
 
 The application is built using Python and Streamlit and is deployed publicly on Streamlit Community Cloud.
 
-Live Application: [Add Streamlit App URL here]
+Live Application: https://addictsense-xv33aonpwatl2r4kzgxgs6.streamlit.app/Login
 
 ---
 
