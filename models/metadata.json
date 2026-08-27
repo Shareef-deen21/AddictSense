@@ -1,0 +1,78 @@
+{
+  "feature_cols": [
+    "Age",
+    "Gender",
+    "Academic_Level",
+    "Country",
+    "Avg_Daily_Usage_Hours",
+    "Most_Used_Platform",
+    "Affects_Academic_Performance",
+    "Sleep_Hours_Per_Night",
+    "Mental_Health_Score",
+    "Relationship_Status",
+    "Conflicts_Over_Social_Media"
+  ],
+  "cat_features": [
+    "Gender",
+    "Academic_Level",
+    "Country",
+    "Most_Used_Platform",
+    "Relationship_Status"
+  ],
+  "label_map": {
+    "0": "Low",
+    "1": "Moderate",
+    "2": "High",
+    "3": "Severe"
+  },
+  "best_model": "Random Forest (Non-Tuned)",
+  "best_model_source": "Non-Tuned",
+  "best_model_scores": {
+    "accuracy": 0.9858,
+    "f1": 0.9858,
+    "roc_auc": 0.9997,
+    "cv_mean": 0.9873
+  },
+  "model_scores": {
+    "XGBoost": {
+      "accuracy": 0.9716,
+      "f1": 0.9715,
+      "roc_auc": 0.9992
+    },
+    "CatBoost": {
+      "accuracy": 0.9645,
+      "f1": 0.9644,
+      "roc_auc": 0.9985
+    },
+    "LightGBM": {
+      "accuracy": 0.9716,
+      "f1": 0.9715,
+      "roc_auc": 0.9994
+    },
+    "Random Forest": {
+      "accuracy": 0.9858,
+      "f1": 0.9858,
+      "roc_auc": 0.9997
+    },
+    "Logistic Regression": {
+      "accuracy": 0.9574,
+      "f1": 0.9577,
+      "roc_auc": 0.9954
+    },
+    "XGBoost (Tuned)": {
+      "accuracy": 0.9716,
+      "f1": 0.9716,
+      "roc_auc": 0.9997
+    },
+    "Random Forest (Tuned)": {
+      "accuracy": 0.9787,
+      "f1": 0.9786,
+      "roc_auc": 0.9996
+    },
+    "LightGBM (Tuned)": {
+      "accuracy": 0.9716,
+      "f1": 0.9715,
+      "roc_auc": 0.9988
+    }
+  }
+}
